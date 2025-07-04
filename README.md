@@ -1,72 +1,68 @@
-# YodaEats - A Campus Food Delivery Experience
+## YodaEats - A Campus Food Delivery Experience
 
-Welcome to **YodaEats**, a themed campus food delivery web application inspired by Star Wars. YodaEats allows students to order food from campus restaurants, and lets others earn credits by delivering the orders.
+**Track:** Full Stack
 
-## Features
+### 🚀 What is YodaEats?
+YodaEats is a Star Wars–themed campus food delivery platform built for college students. It allows students to order from campus eateries, and lets other students sign up as delivery agents to earn credits by delivering meals. Inspired by Star Wars visuals and lore, YodaEats brings a fun and immersive ordering and delivery experience to campus.
 
-- 🛒 **Cart system** with quantity management and total calculation
-- 🚚 **Delivery orders** with earnings tracking for delivery staff
-- 🍕 **Restaurant listings** and detailed menus
-- 🌍 **Delivery location selection** with dropdown inside the cart
-- 🎇 Engaging Star Wars themed animations, including lightsaber effects and an opening crawl
-- Responsive and modern UI with Star Wars inspired colors and fonts
+---
 
-## Technologies Used
+### ⚙️ Tech Stack
+- **Frontend:** HTML, CSS (Star Wars theme), JavaScript
+- **Backend:** Node.js, Express
+- **Database:** MongoDB Atlas
+- **Authentication:** JWT-based auth
 
-- **HTML** (structure)
-- **CSS** (styling, including dark theme support)
-- **JavaScript** (functionality and state management)
+---
 
-## Project Structure
+### 🛠️ Problem We’re Solving
 
-```
-.
-├── index.html          # Main HTML file
-├── style.css           # Styling and theming
-├── app.js              # All JavaScript logic (state, events, rendering)
-```
+On college campuses, coordinating food orders and deliveries is time-consuming. YodaEats streamlines this by:
+- Offering a centralized system for students to place orders
+- Empowering other students to earn money by delivering
+- Reducing confusion about delivery locations on campus
+- Using gamified Star Wars visuals to make it engaging
 
-## Delivery Locations
+---
 
-The app supports selecting delivery locations in the cart from the following list:
+### 💡 Business Model
+- Delivery partners (students) earn credits per order (₹40–₹70)
+- Platform can charge a commission per completed order in the future
+- Advertising / featured listing fees from campus restaurants
 
-- AB1
-- AB2
-- AB3
-- AB4
-- Admin Building
-- A1 Block
-- B1 Block
-- C1 Block
-- D1 Block
+---
+ ### 🚀 Hackathon Challenges / Bounties for Bugalorians - YodaEats**
+#### **Challenge 1: Sith Dark Theme**  
+Implement a fully Sith-inspired dark theme for the website, using deep reds, blacks, and subtle neon elements to create a menacing, elegant Star Wars Sith look.
 
-## How to Run
+#### **Challenge 2: Star Wars Easter Egg on Loading Screen**  
+Add a hidden Star Wars–style Easter egg on the loading screen. This could be a random Yoda quote, a reference to a Star Wars scene, or a small interactive animation to surprise users.
 
-1. Clone the repository:
+#### **Challenge 3: 3D Light Saber Scrollbar**  
+Design a custom 3D light saber–inspired scrollbar. The scrollbar should glow, and as the user scrolls, it should dynamically expand or change colors in a way that resembles a lightsaber powering up.
 
-   ```
-   git clone <repository_url>
-   ```
+---
 
-2. Open `index.html` directly in your browser.
+### 🌐 Deployment
+Live website : https://yodaeats.netlify.app/
 
-There is no server dependency; this is a static front-end project.
+---
 
-## Customization
+### 🎥 YouTube Video Demo
+https://youtu.be/P60xdomXESM?si=Q_R9vZU-OdmiZ_fP
 
-- **Adding new restaurants**: You can edit the `restaurantData` array in `app.js` to add more menu items or restaurants.
-- **Changing delivery earnings**: Adjust the `earningsPerOrderRange` in `app.js`.
-- **Delivery location list**: Simply change the `<select>` options in the cart section of `index.html`.
+**Video Contents Checklist:**
+- Introduction to YodaEats
+- Full Stack track mention
+- Explanation of the problem and business model
+- Live demo: ordering flow, delivery flow, UI theme
+- Bounties completed
 
-## Screenshots
+---
 
-*(Will be Updated Soon)*
+### 📢 Submission Reminder
+- Repo is public ✅
+- Commit history is clear ✅
+- README includes live site + YouTube link ✅
 
-## License
-
-This project is for educational and personal demonstration purposes.
-
-## Credits
-
-Made with ❤️ by Thirugnanam V S. Star Wars and Yoda references belong to their respective copyright owners.
-
+**May the prompts be with you!** 🌌
